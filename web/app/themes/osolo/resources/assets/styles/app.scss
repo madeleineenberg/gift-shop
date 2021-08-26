@@ -1,0 +1,15 @@
+/** Config */
+@import 'config/variables';
+@import 'config/external';
+
+/** Common */
+@import 'common/global';
+@import 'common/header';
+@import 'common/footer';
+
+/** Components */
+@import 'components';
+
+@import './pages/shop';
+
+@import './partials/pagination';

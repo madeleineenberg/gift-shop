@@ -1,0 +1,19 @@
+.woocommerce-pagination {
+    padding: 5% 0;
+
+}
+.woocommerce nav.woocommerce-pagination ul li a:focus, 
+.woocommerce nav.woocommerce-pagination ul li a:hover, 
+.woocommerce nav.woocommerce-pagination ul li span.current {
+    background: $light-purple;
+    color: $black;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a{
+    color: $black;
+}
+
+.woocommerce nav.woocommerce-pagination ul,
+.woocommerce nav.woocommerce-pagination ul li{
+    border: none;
+}

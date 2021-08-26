@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/app/public/web/app/plugins/react-plugin/frontend/build/static/css/main.css",
+    "main.js": "/app/public/web/app/plugins/react-plugin/frontend/build/static/js/main.js",
+    "main.js.map": "/app/public/web/app/plugins/react-plugin/frontend/build/static/js/main.js.map",
+    "index.html": "/app/public/web/app/plugins/react-plugin/frontend/build/index.html",
+    "static/css/main.css.map": "/app/public/web/app/plugins/react-plugin/frontend/build/static/css/main.css.map",
+    "static/js/main.js.LICENSE.txt": "/app/public/web/app/plugins/react-plugin/frontend/build/static/js/main.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/css/main.css",
+    "static/js/main.js"
+  ]
+}

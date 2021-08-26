@@ -1,0 +1,30 @@
+/**
+ * Bootstrap
+ * Here you can specify your own grid sizes and theme colors
+ */
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+);
+
+$theme-colors: (
+  'primary': #0d6efd,
+  'secondary': #6c757d,
+  'success': #198754,
+  'info': #0dcaf0,
+  'warning': #ffc107,
+  'danger': #dc3545,
+  'light': #f8f9fa,
+  'dark': #212529,
+);
+
+$pink: #ff499d;
+$peach: #ffdab9;
+$light-purple: #ffdaed;
+$white: #fff;
+$creme-white: #ffefee;
+$black: #181818;
+$light-blue: #bee4f8;

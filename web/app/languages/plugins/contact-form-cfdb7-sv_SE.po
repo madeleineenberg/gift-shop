@@ -1,0 +1,92 @@
+# Translation of Plugins - Contact Form 7 Database Addon &#8211; CFDB7 - Development (trunk) in Swedish
+# This file is distributed under the same license as the Plugins - Contact Form 7 Database Addon &#8211; CFDB7 - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-03-29 10:30:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Contact Form 7 Database Addon &#8211; CFDB7 - Development (trunk)\n"
+
+#. Plugin URI of the plugin
+msgid "https://ciphercoin.com/"
+msgstr "https://ciphercoin.com/"
+
+#. Author URI of the plugin
+msgid "http://ciphercoin.com/"
+msgstr "http://ciphercoin.com/"
+
+#. Author of the plugin
+msgid "Arshid"
+msgstr "Arshid"
+
+#. Plugin Name of the plugin
+msgid "Contact Form CFDB7"
+msgstr "Contact Form CFDB7"
+
+#: inc/admin-subpage.php:448
+msgid "Bulk Actions"
+msgstr "Massåtgärder"
+
+#: inc/admin-subpage.php:199
+msgid "Delete"
+msgstr "Ta bort"
+
+#: inc/admin-mainpage.php:125
+msgid "Name"
+msgstr "Namn"
+
+#: inc/admin-subpage.php:446
+msgid "Select bulk action"
+msgstr "Välj massåtgärd"
+
+#: inc/admin-subpage.php:463
+msgid "Export CSV"
+msgstr "Exportera CSV"
+
+#: inc/admin-mainpage.php:32
+msgid "Contact Forms"
+msgstr "Kontaktformulär"
+
+#: inc/add-ons.php:15
+msgid "Browse All Extensions"
+msgstr "Bläddra bland alla utökningar"
+
+#: inc/add-ons.php:13
+msgid "Extensions for CFDB7"
+msgstr "Utökningar för CFDB7"
+
+#: inc/admin-subpage.php:198
+msgid "Unread"
+msgstr "Oläst"
+
+#: inc/admin-subpage.php:197
+msgid "Read"
+msgstr "Läst"
+
+#: inc/admin-mainpage.php:126
+msgid "Count"
+msgstr "Antal"
+
+#: inc/add-ons.php:18
+msgid "These extensions <strong>add functionality</strong> to CFDB7"
+msgstr "Dessa utökningar <strong>lägger till funktionalitet</strong> till CFDB7"
+
+#: inc/add-ons.php:47
+msgid "There was an error retrieving the extensions list from the server. Please try again later."
+msgstr "Det var ett fel vid hämtningen av utökningslistan från servern. Försök igen senare."
+
+#: inc/admin-subpage.php:458
+msgid "Apply"
+msgstr "Utför"
+
+#: inc/admin-mainpage.php:69
+msgid "Contact Forms List"
+msgstr "Lista över kontaktformulär"
+
+#. Description of the plugin
+msgid "Save and manage Contact Form 7 messages. Never lose important data. Contact Form CFDB7 plugin is an add-on for the Contact Form 7 plugin."
+msgstr "Spara och hantera meddelanden från Contact Form 7. Viktig information går aldrig förlorad. Tillägget Contact Form CFDB7 är en utökning för tillägget Contact Form 7."

@@ -1,0 +1,63 @@
+.footer-banner {
+    background-color: $black;
+    padding: 10px 0;
+    margin-top: 20px;
+    color: $white;
+    height: 50px;
+
+    &.no-margins{
+        margin-top: -16px;
+    }
+
+    // .holder {
+    //     /* Clip edges, as some of the lines don't terminate nicely. */
+    //     overflow: hidden;
+    //     position: relative;
+    //     width: 100vw;
+    //     height: 50px;
+    //     left: -5px;
+    //     right: 20px;
+    //   }
+      
+    //   .clip {
+    //     /* Clip edges, as some of the lines don't terminate nicely. */
+    //     overflow: hidden;
+    // }
+    // .circle {
+    //     position: absolute;
+    //     width: 100vw;
+    //     height: 20px;
+    //     // background: radial-gradient(16px, transparent, transparent 4px, $white 4px, $white 10px, transparent 11px);
+    //     background: radial-gradient(5px, transparent, transparent 4px, #fff 6px, #fff 9px, transparent 0px);
+    //     background-size: 30px 40px;
+    // }
+    
+    // .circle2 {
+    //     /* Offset to make squigglies line up */
+    //     top: 20px;
+    //     left: 15px;
+    //     background-position: 0px -20px;
+    // }
+      
+    
+}
+
+.c-siteFooter {
+    background-color: $peach;
+    height: 300px;
+
+
+
+&__social {
+    display: flex;
+
+    .icon-wrapper {
+        margin-right: 10px;
+        svg {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+
+}
