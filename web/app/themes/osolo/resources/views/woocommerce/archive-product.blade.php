@@ -12,14 +12,38 @@ the readme will list any important changes.
 @php
 
 $paged = get_query_var('paged') ? get_query_var('paged') : 1;
-$product_categories = ['cat-name'];
 $args = [
     'post_type' => 'product',
-    'post_per_page' => '10',
+    'post_status' => 'publish',
     'paged' => $paged,
     'order' => 'ASC',
-    'post_status' => 'publish',
+    'ignore_sticky_posts' => 1,
+    'posts_per_page' => '10',
+    'tax_query' => [
+        [
+            'taxonomy' => 'product_cat',
+            'field' => 'term_id', //This is optional, as it defaults to 'term_id'
+            'terms' => ['tech', 'fashion', 'crafts', 'other'],
+            'operator' => 'IN', // Possible values are 'IN', 'NOT IN', 'AND'.
+        ],
+        [
+            'taxonomy' => 'product_visibility',
+            'field' => 'slug',
+            'terms' => 'exclude-from-catalog', // Possibly 'exclude-from-search' too
+            'operator' => 'NOT IN',
+        ],
+    ],
 ];
+
+echo '<pre>' . print_r($products, true) . '</pre>';
+
+// $args = [
+//     'post_type' => 'product',
+//     'post_per_page' => '10',
+//     'paged' => $paged,
+//     'order' => 'ASC',
+//     'post_status' => 'publish',
+// ];
 
 $the_query = new WP_Query($args);
 

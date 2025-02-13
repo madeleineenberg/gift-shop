@@ -31,3 +31,14 @@ add_filter('site_transient_update_plugins', function ($value) {
     unset($value->response['filebird/filebird.php']);
     return $value;
 });
+
+// add_filter('woocommerce_product_tabs', 'woo_remove_tabs', 98);
+// function woo_remove_tabs($tabs)
+// {
+//     if (is_product()) {
+//         unset($tabs['description']); // Remove the description tab
+//         unset($tabs['reviews']); // Remove the reviews tab
+//         unset($tabs['additional_information']); // Remove the additional information tab
+//     }
+//     return $tabs;
+// }
